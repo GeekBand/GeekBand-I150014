@@ -7,6 +7,7 @@
 //
 
 #import "GBMSquareCellVertical.h"
+#import "GBMSquareCellHorizontal.h"
 
 @implementation GBMSquareCellVertical
 
@@ -14,10 +15,11 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        
-        [self createCell];
 
         [self createTableView];
+
+        [self createCell];
+
     }
     return self;
 }
@@ -63,11 +65,10 @@
     
     static NSString *cellID = @"cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    GBMSquareCellHorizontal *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell = [[GBMSquareCellHorizontal alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
-    cell.textLabel.text = @"h cell";
     cell.contentView.transform = CGAffineTransformMakeRotation(M_PI/2);
     
     return cell;

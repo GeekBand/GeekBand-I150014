@@ -22,7 +22,6 @@
 		63D8EFC41B90079B004131B6 /* GBMSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFBF1B90079B004131B6 /* GBMSquareViewController.m */; };
 		63D8EFC71B901031004131B6 /* GBMSquareCellVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFC61B901031004131B6 /* GBMSquareCellVertical.m */; };
 		63D8EFCA1B90104A004131B6 /* GBMSquareCellHorizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFC91B90104A004131B6 /* GBMSquareCellHorizontal.m */; };
-		63D8EFD01B901698004131B6 /* GBMSquareHorizontalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFCF1B901698004131B6 /* GBMSquareHorizontalTableViewController.m */; };
 		D3A5E31979575F72258227F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04184934E347B6B28EAF55B8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +67,6 @@
 		63D8EFC61B901031004131B6 /* GBMSquareCellVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareCellVertical.m; sourceTree = "<group>"; };
 		63D8EFC81B901049004131B6 /* GBMSquareCellHorizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMSquareCellHorizontal.h; sourceTree = "<group>"; };
 		63D8EFC91B90104A004131B6 /* GBMSquareCellHorizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareCellHorizontal.m; sourceTree = "<group>"; };
-		63D8EFCE1B901698004131B6 /* GBMSquareHorizontalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMSquareHorizontalTableViewController.h; sourceTree = "<group>"; };
-		63D8EFCF1B901698004131B6 /* GBMSquareHorizontalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareHorizontalTableViewController.m; sourceTree = "<group>"; };
 		8162A59F7A661415AF287C87 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EC6145CFE85CDBB55CB0E62B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,8 +212,6 @@
 				63D8EFBF1B90079B004131B6 /* GBMSquareViewController.m */,
 				63D8EFC51B901031004131B6 /* GBMSquareCellVertical.h */,
 				63D8EFC61B901031004131B6 /* GBMSquareCellVertical.m */,
-				63D8EFCE1B901698004131B6 /* GBMSquareHorizontalTableViewController.h */,
-				63D8EFCF1B901698004131B6 /* GBMSquareHorizontalTableViewController.m */,
 				63D8EFC81B901049004131B6 /* GBMSquareCellHorizontal.h */,
 				63D8EFC91B90104A004131B6 /* GBMSquareCellHorizontal.m */,
 			);
@@ -368,7 +363,6 @@
 				63D8EFC31B90079B004131B6 /* GBMPublishViewController.m in Sources */,
 				63D8EFCA1B90104A004131B6 /* GBMSquareCellHorizontal.m in Sources */,
 				63D8EFC21B90079B004131B6 /* GBMMyViewController.m in Sources */,
-				63D8EFD01B901698004131B6 /* GBMSquareHorizontalTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

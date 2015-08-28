@@ -10,4 +10,7 @@
 
 @interface GBMSquareCellHorizontal : UITableViewCell
 
+@property (nonatomic, strong) UIImageView *photoImageView;
+@property (nonatomic, strong) UILabel *commentLabel;
+
 @end

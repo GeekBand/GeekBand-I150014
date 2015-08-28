@@ -28,7 +28,7 @@
     self.tableView.showsVerticalScrollIndicator = NO;
     
     //注册cell
-//    [self.tableView registerClass:[GBMSquareCellVertical class] forCellReuseIdentifier:self.verticalCellID];
+    [self.tableView registerClass:[GBMSquareCellVertical class] forCellReuseIdentifier:self.verticalCellID];
     
 }
 
@@ -51,7 +51,6 @@
     
     verticalCell = [[GBMSquareCellVertical alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:self.verticalCellID];
     
-//    verticalCell.textLabel.text = @"test";
     verticalCell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return verticalCell;
