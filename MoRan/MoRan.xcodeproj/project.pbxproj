@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634A29FE1B88D64A00F3200A /* GBMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A29FD1B88D64A00F3200A /* GBMNavigationController.m */; };
+		634A2A011B88D66500F3200A /* GBMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A2A001B88D66500F3200A /* GBMTabBarController.m */; };
+		634A2A131B898A4200F3200A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A2A121B898A4200F3200A /* AVFoundation.framework */; };
+		635256851B88CAF50036543E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635256841B88CAF50036543E /* main.m */; };
+		635256881B88CAF50036543E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 635256871B88CAF50036543E /* AppDelegate.m */; };
+		635256901B88CAF50036543E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6352568F1B88CAF50036543E /* Images.xcassets */; };
+		635256931B88CAF50036543E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635256911B88CAF50036543E /* LaunchScreen.xib */; };
+		6352569F1B88CAF50036543E /* MoRanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352569E1B88CAF50036543E /* MoRanTests.m */; };
+		63D8EFC01B90079B004131B6 /* GBMCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFB41B90079B004131B6 /* GBMCameraViewController.m */; };
+		63D8EFC11B90079B004131B6 /* GBMLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFB71B90079B004131B6 /* GBMLogInViewController.m */; };
+		63D8EFC21B90079B004131B6 /* GBMMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFB91B90079B004131B6 /* GBMMyViewController.m */; };
+		63D8EFC31B90079B004131B6 /* GBMPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFBC1B90079B004131B6 /* GBMPublishViewController.m */; };
+		63D8EFC41B90079B004131B6 /* GBMSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFBF1B90079B004131B6 /* GBMSquareViewController.m */; };
+		63D8EFC71B901031004131B6 /* GBMSquareCellVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFC61B901031004131B6 /* GBMSquareCellVertical.m */; };
+		63D8EFCA1B90104A004131B6 /* GBMSquareCellHorizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFC91B90104A004131B6 /* GBMSquareCellHorizontal.m */; };
+		63D8EFD01B901698004131B6 /* GBMSquareHorizontalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EFCF1B901698004131B6 /* GBMSquareHorizontalTableViewController.m */; };
+		D3A5E31979575F72258227F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04184934E347B6B28EAF55B8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635256991B88CAF50036543E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635256771B88CAF50036543E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6352567E1B88CAF50036543E;
+			remoteInfo = MoRan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04184934E347B6B28EAF55B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		634A29FC1B88D64A00F3200A /* GBMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMNavigationController.h; sourceTree = "<group>"; };
+		634A29FD1B88D64A00F3200A /* GBMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMNavigationController.m; sourceTree = "<group>"; };
+		634A29FF1B88D66500F3200A /* GBMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMTabBarController.h; sourceTree = "<group>"; };
+		634A2A001B88D66500F3200A /* GBMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMTabBarController.m; sourceTree = "<group>"; };
+		634A2A0B1B88E95100F3200A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		634A2A121B898A4200F3200A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6352567F1B88CAF50036543E /* MoRan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoRan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635256831B88CAF50036543E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635256841B88CAF50036543E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635256861B88CAF50036543E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		635256871B88CAF50036543E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6352568F1B88CAF50036543E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		635256921B88CAF50036543E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		635256981B88CAF50036543E /* MoRanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoRanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6352569D1B88CAF50036543E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6352569E1B88CAF50036543E /* MoRanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoRanTests.m; sourceTree = "<group>"; };
+		63D8EFB31B90079B004131B6 /* GBMCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMCameraViewController.h; sourceTree = "<group>"; };
+		63D8EFB41B90079B004131B6 /* GBMCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMCameraViewController.m; sourceTree = "<group>"; };
+		63D8EFB61B90079B004131B6 /* GBMLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMLogInViewController.h; sourceTree = "<group>"; };
+		63D8EFB71B90079B004131B6 /* GBMLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMLogInViewController.m; sourceTree = "<group>"; };
+		63D8EFB81B90079B004131B6 /* GBMMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMMyViewController.h; sourceTree = "<group>"; };
+		63D8EFB91B90079B004131B6 /* GBMMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMMyViewController.m; sourceTree = "<group>"; };
+		63D8EFBB1B90079B004131B6 /* GBMPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMPublishViewController.h; sourceTree = "<group>"; };
+		63D8EFBC1B90079B004131B6 /* GBMPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMPublishViewController.m; sourceTree = "<group>"; };
+		63D8EFBE1B90079B004131B6 /* GBMSquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMSquareViewController.h; sourceTree = "<group>"; };
+		63D8EFBF1B90079B004131B6 /* GBMSquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareViewController.m; sourceTree = "<group>"; };
+		63D8EFC51B901031004131B6 /* GBMSquareCellVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMSquareCellVertical.h; sourceTree = "<group>"; };
+		63D8EFC61B901031004131B6 /* GBMSquareCellVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareCellVertical.m; sourceTree = "<group>"; };
+		63D8EFC81B901049004131B6 /* GBMSquareCellHorizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMSquareCellHorizontal.h; sourceTree = "<group>"; };
+		63D8EFC91B90104A004131B6 /* GBMSquareCellHorizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareCellHorizontal.m; sourceTree = "<group>"; };
+		63D8EFCE1B901698004131B6 /* GBMSquareHorizontalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMSquareHorizontalTableViewController.h; sourceTree = "<group>"; };
+		63D8EFCF1B901698004131B6 /* GBMSquareHorizontalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareHorizontalTableViewController.m; sourceTree = "<group>"; };
+		8162A59F7A661415AF287C87 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC6145CFE85CDBB55CB0E62B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6352567C1B88CAF50036543E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634A2A131B898A4200F3200A /* AVFoundation.framework in Frameworks */,
+				D3A5E31979575F72258227F2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635256951B88CAF50036543E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A267677D43EBF5B3CD94E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8162A59F7A661415AF287C87 /* Pods.debug.xcconfig */,
+				EC6145CFE85CDBB55CB0E62B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D3E1DE53A6711F94FC3F748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634A2A121B898A4200F3200A /* AVFoundation.framework */,
+				04184934E347B6B28EAF55B8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		635256761B88CAF50036543E = {
+			isa = PBXGroup;
+			children = (
+				635256811B88CAF50036543E /* MoRan */,
+				6352569B1B88CAF50036543E /* MoRanTests */,
+				635256801B88CAF50036543E /* Products */,
+				01A267677D43EBF5B3CD94E9 /* Pods */,
+				4D3E1DE53A6711F94FC3F748 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		635256801B88CAF50036543E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6352567F1B88CAF50036543E /* MoRan.app */,
+				635256981B88CAF50036543E /* MoRanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635256811B88CAF50036543E /* MoRan */ = {
+			isa = PBXGroup;
+			children = (
+				635256861B88CAF50036543E /* AppDelegate.h */,
+				635256871B88CAF50036543E /* AppDelegate.m */,
+				634A29FC1B88D64A00F3200A /* GBMNavigationController.h */,
+				634A29FD1B88D64A00F3200A /* GBMNavigationController.m */,
+				634A29FF1B88D66500F3200A /* GBMTabBarController.h */,
+				634A2A001B88D66500F3200A /* GBMTabBarController.m */,
+				63D8EFB21B90079B004131B6 /* Camera相机 */,
+				63D8EFB51B90079B004131B6 /* My我的 */,
+				63D8EFBA1B90079B004131B6 /* Publish发布 */,
+				63D8EFBD1B90079B004131B6 /* Square广场 */,
+				6352568F1B88CAF50036543E /* Images.xcassets */,
+				635256911B88CAF50036543E /* LaunchScreen.xib */,
+				635256821B88CAF50036543E /* Supporting Files */,
+			);
+			path = MoRan;
+			sourceTree = "<group>";
+		};
+		635256821B88CAF50036543E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635256831B88CAF50036543E /* Info.plist */,
+				635256841B88CAF50036543E /* main.m */,
+				634A2A0B1B88E95100F3200A /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6352569B1B88CAF50036543E /* MoRanTests */ = {
+			isa = PBXGroup;
+			children = (
+				6352569E1B88CAF50036543E /* MoRanTests.m */,
+				6352569C1B88CAF50036543E /* Supporting Files */,
+			);
+			path = MoRanTests;
+			sourceTree = "<group>";
+		};
+		6352569C1B88CAF50036543E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6352569D1B88CAF50036543E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63D8EFB21B90079B004131B6 /* Camera相机 */ = {
+			isa = PBXGroup;
+			children = (
+				63D8EFB31B90079B004131B6 /* GBMCameraViewController.h */,
+				63D8EFB41B90079B004131B6 /* GBMCameraViewController.m */,
+			);
+			path = "Camera相机";
+			sourceTree = "<group>";
+		};
+		63D8EFB51B90079B004131B6 /* My我的 */ = {
+			isa = PBXGroup;
+			children = (
+				63D8EFB61B90079B004131B6 /* GBMLogInViewController.h */,
+				63D8EFB71B90079B004131B6 /* GBMLogInViewController.m */,
+				63D8EFB81B90079B004131B6 /* GBMMyViewController.h */,
+				63D8EFB91B90079B004131B6 /* GBMMyViewController.m */,
+			);
+			path = "My我的";
+			sourceTree = "<group>";
+		};
+		63D8EFBA1B90079B004131B6 /* Publish发布 */ = {
+			isa = PBXGroup;
+			children = (
+				63D8EFBB1B90079B004131B6 /* GBMPublishViewController.h */,
+				63D8EFBC1B90079B004131B6 /* GBMPublishViewController.m */,
+			);
+			path = "Publish发布";
+			sourceTree = "<group>";
+		};
+		63D8EFBD1B90079B004131B6 /* Square广场 */ = {
+			isa = PBXGroup;
+			children = (
+				63D8EFBE1B90079B004131B6 /* GBMSquareViewController.h */,
+				63D8EFBF1B90079B004131B6 /* GBMSquareViewController.m */,
+				63D8EFC51B901031004131B6 /* GBMSquareCellVertical.h */,
+				63D8EFC61B901031004131B6 /* GBMSquareCellVertical.m */,
+				63D8EFCE1B901698004131B6 /* GBMSquareHorizontalTableViewController.h */,
+				63D8EFCF1B901698004131B6 /* GBMSquareHorizontalTableViewController.m */,
+				63D8EFC81B901049004131B6 /* GBMSquareCellHorizontal.h */,
+				63D8EFC91B90104A004131B6 /* GBMSquareCellHorizontal.m */,
+			);
+			path = "Square广场";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6352567E1B88CAF50036543E /* MoRan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635256A21B88CAF50036543E /* Build configuration list for PBXNativeTarget "MoRan" */;
+			buildPhases = (
+				D02BD42DCCCB3FFE1DFA3C1D /* Check Pods Manifest.lock */,
+				6352567B1B88CAF50036543E /* Sources */,
+				6352567C1B88CAF50036543E /* Frameworks */,
+				6352567D1B88CAF50036543E /* Resources */,
+				5DAAD1BF82AEA69A563877BB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoRan;
+			productName = MoRan;
+			productReference = 6352567F1B88CAF50036543E /* MoRan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635256971B88CAF50036543E /* MoRanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635256A51B88CAF50036543E /* Build configuration list for PBXNativeTarget "MoRanTests" */;
+			buildPhases = (
+				635256941B88CAF50036543E /* Sources */,
+				635256951B88CAF50036543E /* Frameworks */,
+				635256961B88CAF50036543E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6352569A1B88CAF50036543E /* PBXTargetDependency */,
+			);
+			name = MoRanTests;
+			productName = MoRanTests;
+			productReference = 635256981B88CAF50036543E /* MoRanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635256771B88CAF50036543E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = GeekBand;
+				TargetAttributes = {
+					6352567E1B88CAF50036543E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					635256971B88CAF50036543E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6352567E1B88CAF50036543E;
+					};
+				};
+			};
+			buildConfigurationList = 6352567A1B88CAF50036543E /* Build configuration list for PBXProject "MoRan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635256761B88CAF50036543E;
+			productRefGroup = 635256801B88CAF50036543E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6352567E1B88CAF50036543E /* MoRan */,
+				635256971B88CAF50036543E /* MoRanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6352567D1B88CAF50036543E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635256931B88CAF50036543E /* LaunchScreen.xib in Resources */,
+				635256901B88CAF50036543E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635256961B88CAF50036543E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DAAD1BF82AEA69A563877BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D02BD42DCCCB3FFE1DFA3C1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6352567B1B88CAF50036543E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635256881B88CAF50036543E /* AppDelegate.m in Sources */,
+				63D8EFC71B901031004131B6 /* GBMSquareCellVertical.m in Sources */,
+				63D8EFC11B90079B004131B6 /* GBMLogInViewController.m in Sources */,
+				634A29FE1B88D64A00F3200A /* GBMNavigationController.m in Sources */,
+				63D8EFC41B90079B004131B6 /* GBMSquareViewController.m in Sources */,
+				634A2A011B88D66500F3200A /* GBMTabBarController.m in Sources */,
+				635256851B88CAF50036543E /* main.m in Sources */,
+				63D8EFC01B90079B004131B6 /* GBMCameraViewController.m in Sources */,
+				63D8EFC31B90079B004131B6 /* GBMPublishViewController.m in Sources */,
+				63D8EFCA1B90104A004131B6 /* GBMSquareCellHorizontal.m in Sources */,
+				63D8EFC21B90079B004131B6 /* GBMMyViewController.m in Sources */,
+				63D8EFD01B901698004131B6 /* GBMSquareHorizontalTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635256941B88CAF50036543E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6352569F1B88CAF50036543E /* MoRanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6352569A1B88CAF50036543E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6352567E1B88CAF50036543E /* MoRan */;
+			targetProxy = 635256991B88CAF50036543E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635256911B88CAF50036543E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635256921B88CAF50036543E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635256A01B88CAF50036543E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		635256A11B88CAF50036543E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635256A31B88CAF50036543E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8162A59F7A661415AF287C87 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = MoRan/PrefixHeader.pch;
+				INFOPLIST_FILE = MoRan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		635256A41B88CAF50036543E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6145CFE85CDBB55CB0E62B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = MoRan/PrefixHeader.pch;
+				INFOPLIST_FILE = MoRan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		635256A61B88CAF50036543E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoRanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoRan.app/MoRan";
+			};
+			name = Debug;
+		};
+		635256A71B88CAF50036543E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoRanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoRan.app/MoRan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6352567A1B88CAF50036543E /* Build configuration list for PBXProject "MoRan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635256A01B88CAF50036543E /* Debug */,
+				635256A11B88CAF50036543E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635256A21B88CAF50036543E /* Build configuration list for PBXNativeTarget "MoRan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635256A31B88CAF50036543E /* Debug */,
+				635256A41B88CAF50036543E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635256A51B88CAF50036543E /* Build configuration list for PBXNativeTarget "MoRanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635256A61B88CAF50036543E /* Debug */,
+				635256A71B88CAF50036543E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635256771B88CAF50036543E /* Project object */;
+}
